@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import Dashboard from "./components/DashboardContent";
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <Dashboard />
     </div>
 
   )
